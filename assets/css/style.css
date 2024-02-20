@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: auto;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 160px; /* Ensure footer height */
+  box-sizing: border-box;
+  /* text-align: center; */
+  /* font-family: 'MySelectedFont', ...; */
+  background-color: rgba(255, 255, 255, 0);
+  overflow-x: hidden;
+  @apply font-body;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    color: rgba(50, 50, 50, 1);
+}
+h3 {
+    color: rgba(100, 100, 100, 1);
+}
+p {
+    color: rgba(50, 50, 50, 1);
+}
+.main-text {
+    background-color: rgba(25, 25, 25, 0.);
+    /* width: calc(100%*(5/6)); */
+    /* min-width:768px; */
+    padding-top: 100px;
+    opacity: 1.0;
+    transition: .3s ease-out;
+}
+.main-text.transparent{
+    opacity: 0.0;
+}
+
+.my-link {
+    color: rgb(184, 0, 0);
+    /* text-decoration: none; */
+    transition: .15s ease-out;
+}
+.my-link:hover{
+    color: rgba(255, 0, 0, 0.5);
+    /* text-decoration: underline; */
+}
+
+.navbar-title {
+    color: rgb(0, 0, 0);
+}
+.navbar-menu {
+    color: rgb(0, 0, 0);
+}
+
+.youtube{
+    opacity: 0.0;
+    transition: .5s ease-out;
+}
+.youtube.disp{
+    opacity: 1.0;
+}
