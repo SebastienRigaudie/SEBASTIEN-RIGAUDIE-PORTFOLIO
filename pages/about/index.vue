@@ -7,7 +7,7 @@
                 ref="profileIcon"
                 id="profile-icon"
                 class="w-1/2 md:w-1/2 xl:w-1/3 my-5 rounded-full"
-                src="/image/about/FTD-icon-000001.webp" 
+                src="/image/about/1676906946340.jpeg" 
                 alt="ftd-icon"
             />
         </div>

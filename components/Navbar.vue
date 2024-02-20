@@ -27,7 +27,7 @@
 
 <style lang="scss" scoped>
 $mobileSize: 768px; // tailwind's md size
-$baseBackgroundColor: rgba(207, 206, 206, 0.8); // base color
+$baseBackgroundColor: rgb(240, 238, 238); // base color
 $baseTextColor: rgb(0, 0, 0); // main color
 $baseFontWeight: 200;
 
