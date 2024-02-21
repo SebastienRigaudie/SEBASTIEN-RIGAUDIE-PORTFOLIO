@@ -14,7 +14,7 @@ export default class Shape{
 
         const nuxtApp = useNuxtApp()
         nuxtApp.$bus.$on("TRANSFORM", this.onTransform.bind(this));
-        this.pointSizeTarget = 7;
+        this.pointSizeTarget = 4.5;
         this.pointScaleTarget = 10.0;
 
         const fractalWidth = 6;
